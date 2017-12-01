@@ -56,7 +56,7 @@ nav li a {
   float: left;
   width: 200px;
   height: 200px;
-  margin-bottom: 0;
+  margin-top: 30px;
 }
 
 .action {
@@ -140,28 +140,38 @@ nav li a {
 }
 
 .buttons {
-  width: 20%;
+  width: 50%;
   margin: 0px auto;
   padding: 0px;
 }
 
 .buttons ul {
-  margin: 5px;
+  margin: 50px auto 80px auto;
   list-style: none;
   padding: 0px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .buttons li {
   display: inline;
   border-radius: 9px;
-  padding: 10px;
-  margin: 0 5px;
+  padding: 15px;
+  margin: 0px 5px;
   background-color: #449FEA;
 }
 
+#yellow {
+  background-color: #E99002;
+}
+
 /*background-color: #E99002;*/
+
+.buttons li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
 
 footer {
   display: inline-block;
@@ -176,7 +186,7 @@ footer ul {
 footer li {
   display: inline;
   float: left;
-  margin: 0 10px;
+  margin: 0 5px;
 }
 
 footer p {
@@ -184,7 +194,7 @@ footer p {
   padding: 10px;
 }
 
-footer li a, p, .buttons li a {
+footer li a, p {
   color: white;
   text-decoration: none;
 }
